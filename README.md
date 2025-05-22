@@ -40,7 +40,7 @@ Projekti eesmärk oli luua kaasaegne ja automatiseeritud veebirakendus, mis hõl
 
 ---
 
-## 📁 Projektistruktuur
+##  Projektistruktuur
 
 ```bash
 Warehouse/
@@ -77,6 +77,12 @@ cd warehouse-frontend
 npm install
 npm run dev
 
-Autorid
+### Autorid
+Kirill Zahharov
+Dmitri Suhodol
+
+
+
+### Autorid
 Kirill Zahharov
 Dmitri Suhodol
