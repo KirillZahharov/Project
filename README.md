@@ -72,17 +72,17 @@ npm install
 npm run dev
 
 ### Frontend
-```bash
 cd warehouse-frontend
 npm install
 npm run dev
+```
 
 ### Autorid
 Kirill Zahharov
 Dmitri Suhodol
 
-
-
-### Autorid
-Kirill Zahharov
-Dmitri Suhodol
+### Märkused
+Arved salvestatakse eraldi kaustadesse invoices/ ja preinvoices/
+E-kirjade testimiseks on kasutusel Mailtrap.io
+Transporttellimused tuleb kinnitada spetsialisti vaates
+Klient saab tellimusi pikendada ja jälgida enda vaates
