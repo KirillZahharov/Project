@@ -40,24 +40,28 @@ Projekti eesmärk oli luua kaasaegne ja automatiseeritud veebirakendus, mis hõl
 
 ---
 
-##  Projektistruktuur
+## 📁 Projektistruktuur
+
+```bash
 Warehouse/
-│
 ├── warehouse-backend/
-│ ├── config/
-│ ├── controllers/
-│ ├── invoices/ ← Lõpparved (PDF)
-│ ├── preinvoices/ ← Ettemaksuarved (PDF)
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ ├── utils/
-│ ├── app.js, server.js, swagger.js
+│   ├── config/
+│   ├── controllers/
+│   ├── invoices/         # Lõpparved (PDF)
+│   ├── preinvoices/      # Ettemaksuarved (PDF)
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── app.js
+│   ├── server.js
+│   └── swagger.js
 │
 ├── warehouse-frontend/
-│ ├── public/
-│ ├── src/ ← React komponendid, Redux
-│ ├── tailwind.config.js, vite.config.js
+│   ├── public/
+│   ├── src/              # React komponendid, Redux
+│   ├── tailwind.config.js
+│   └── vite.config.js
 
 ##  Käivitamine
 
@@ -68,6 +72,7 @@ npm install
 npm run dev
 
 ### Frontend
+```bash
 cd warehouse-frontend
 npm install
 npm run dev
