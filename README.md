@@ -65,9 +65,10 @@ Warehouse/
 ---
 
 ## Käivitamine
+```bash
 git clone https://github.com/KirillZahharov/Project.git
 cd Project
-
+```
 ### Backend
 
 ```bash
